@@ -1,0 +1,34 @@
+name: quizmaker
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 0.0.4+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  connectivity: ^2.0.2
+  cached_network_image: ^2.5.0
+  
+  cloud_firestore: ^0.13.3
+  firebase_auth: ^0.15.2
+  provider: ^4.3.2+3
+  shared_preferences: ^0.5.12+4
+  random_string: ^2.1.0
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
